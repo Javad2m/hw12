@@ -1,0 +1,131 @@
+﻿using HW12.Entity;
+using HW12.Enum;
+using HW12.Repository;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace HW12.Servicess;
+
+public class TaskServies : TaskRepository
+{
+    public void Creat(string title, DateTime dateTime, PriorityEnum priority)
+    {
+        try
+        {
+            var tasks = GetAll();
+            bool isExistance = tasks.Any(t => t.Titel == title);
+            if (isExistance)
+            {
+                Console.WriteLine("The title entered is a duplicate.");
+                return;
+            }
+            if (dateTime <= DateTime.Now)
+            {
+                Console.WriteLine("Time past");
+                return;
+            }
+            var newTassk = new Tassk()
+            {
+                Titel = title,
+                TimeToDone = dateTime,
+                Priority = priority,
+
+            };
+            Add(newTassk);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+
+        }
+
+    }
+
+    public void TaskList()
+    {
+        var tasks = GetAll();
+        foreach (var item in tasks)
+        {
+            Console.WriteLine($"{item.Id} - {item.Titel} - {item.TimeToDone} - {item.State} - {item.Priority}");
+        }
+    }
+
+    public void Edit(int id, Tassk tsk)
+    {
+        Update(id, tsk);
+
+    }
+
+    public void Remove(int id)
+    {
+        var task = Get(id);
+        if (task != null)
+        {
+            Delete(id);
+        }
+        else
+        {
+            Console.WriteLine("Id Not Found!");
+        }
+
+    }
+
+
+    public void ChangState(int id, int State)
+    {
+        try {
+            var task = Get(id);
+            if (task == null)
+            {
+                Console.WriteLine("Task Not Found");
+                return;
+            }
+            if (State == 1)
+            {
+                task.State = StateEnum.done;
+                Update(id, task);
+            }
+            else if (State == 2)
+            {
+                task.State = StateEnum.inPending;
+                Update(id, task);
+            }
+            else if (State == 3)
+            {
+                task.State = StateEnum.cancelled;
+                Update(id, task);
+            }
+            else
+            {
+                Console.WriteLine("The state entered is a duplicate.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+
+        }
+
+
+    }
+
+    public void Search(string title)
+    {
+        var tasks = GetAll().Where(t => t.Titel == title).ToList();
+        if (tasks.Count == 0)
+        {
+            Console.WriteLine("Not Task Found");
+        }
+        else
+        {
+            foreach (var item in tasks)
+            {
+                Console.WriteLine($"{item.Id} - {item.Titel} - {item.TimeToDone} - {item.State} - {item.Priority}");
+            }
+        }
+    }
+}
+
