@@ -3,20 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|c:\\users\\notebook\\desktop\\hw - 12\\hw12\\hw12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|solutionrelative:hw12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|c:\\users\\notebook\\desktop\\hw - 12\\hw12\\hw12\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|solutionrelative:hw12\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|c:\\users\\notebook\\desktop\\hw - 12\\hw12\\hw12\\entity\\tassk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|solutionrelative:hw12\\entity\\tassk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|c:\\users\\notebook\\desktop\\hw - 12\\hw12\\hw12\\repository\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|solutionrelative:hw12\\repository\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|c:\\users\\notebook\\desktop\\hw - 12\\hw12\\hw12\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|solutionrelative:hw12\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|c:\\users\\notebook\\desktop\\hw - 12\\hw12\\hw12\\servicess\\taskservies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|solutionrelative:hw12\\servicess\\taskservies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|c:\\users\\notebook\\desktop\\hw - 12\\hw12\\hw12\\servicess\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|solutionrelative:hw12\\servicess\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|c:\\users\\notebook\\desktop\\hw - 12\\hw12\\hw12\\configuration\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|solutionrelative:hw12\\configuration\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|c:\\users\\notebook\\desktop\\hw - 12\\hw12\\hw12\\migrations\\20241115000000_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|solutionrelative:hw12\\migrations\\20241115000000_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|c:\\users\\notebook\\desktop\\hw - 12\\hw12\\hw12\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|solutionrelative:hw12\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|c:\\users\\notebook\\desktop\\hw - 12\\hw12\\hw12\\repository\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|solutionrelative:hw12\\repository\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|c:\\users\\notebook\\desktop\\hw - 12\\hw12\\hw12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|solutionrelative:hw12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|c:\\users\\notebook\\desktop\\hw - 12\\hw12\\hw12\\entity\\tassk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|solutionrelative:hw12\\entity\\tassk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|c:\\users\\notebook\\desktop\\hw - 12\\hw12\\hw12\\interface\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|solutionrelative:hw12\\interface\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64B00A1F-7151-49FE-9345-76DE46987805}|HW12\\HW12.csproj|c:\\users\\notebook\\desktop\\hw - 12\\hw12\\hw12\\enum\\priorityenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,45 +82,153 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TaskServies.cs",
-              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Servicess\\TaskServies.cs",
-              "RelativeDocumentMoniker": "HW12\\Servicess\\TaskServies.cs",
-              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Servicess\\TaskServies.cs*",
-              "RelativeToolTip": "HW12\\Servicess\\TaskServies.cs*",
-              "ViewState": "AgIAAEgAAAAAAAAAAAD4v1MAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Servicess\\UserService.cs",
+              "RelativeDocumentMoniker": "HW12\\Servicess\\UserService.cs",
+              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Servicess\\UserService.cs",
+              "RelativeToolTip": "HW12\\Servicess\\UserService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAMwB8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T06:30:51.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T23:08:46.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TaskRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Repository\\TaskRepository.cs",
-              "RelativeDocumentMoniker": "HW12\\Repository\\TaskRepository.cs",
-              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Repository\\TaskRepository.cs",
-              "RelativeToolTip": "HW12\\Repository\\TaskRepository.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCIAAABMAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Program.cs",
+              "RelativeDocumentMoniker": "HW12\\Program.cs",
+              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Program.cs*",
+              "RelativeToolTip": "HW12\\Program.cs*",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAAAOUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T19:29:16.231Z",
+              "WhenOpened": "2024-11-11T17:42:52.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "StateEnum.cs",
-              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Enum\\StateEnum.cs",
-              "RelativeDocumentMoniker": "HW12\\Enum\\StateEnum.cs",
-              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Enum\\StateEnum.cs",
-              "RelativeToolTip": "HW12\\Enum\\StateEnum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "Title": "TaskServies.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Servicess\\TaskServies.cs",
+              "RelativeDocumentMoniker": "HW12\\Servicess\\TaskServies.cs",
+              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Servicess\\TaskServies.cs",
+              "RelativeToolTip": "HW12\\Servicess\\TaskServies.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAawDYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T19:51:00.471Z"
+              "WhenOpened": "2024-11-14T06:30:51.097Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "HW12\\Interface\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "HW12\\Interface\\IUserRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T22:57:14.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Repository\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "HW12\\Repository\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Repository\\AppDBContext.cs",
+              "RelativeToolTip": "HW12\\Repository\\AppDBContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T23:01:16.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "HW12\\Entity\\User.cs",
+              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Entity\\User.cs",
+              "RelativeToolTip": "HW12\\Entity\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T22:47:01.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Configuration\\Configuration.cs",
+              "RelativeDocumentMoniker": "HW12\\Configuration\\Configuration.cs",
+              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Configuration\\Configuration.cs",
+              "RelativeToolTip": "HW12\\Configuration\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T23:49:07.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tassk.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Entity\\Tassk.cs",
+              "RelativeDocumentMoniker": "HW12\\Entity\\Tassk.cs",
+              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Entity\\Tassk.cs",
+              "RelativeToolTip": "HW12\\Entity\\Tassk.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:15:32.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20241115000000_init.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Migrations\\20241115000000_init.cs",
+              "RelativeDocumentMoniker": "HW12\\Migrations\\20241115000000_init.cs",
+              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Migrations\\20241115000000_init.cs",
+              "RelativeToolTip": "HW12\\Migrations\\20241115000000_init.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T00:00:00.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "HW12\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "HW12\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAD4vzEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T22:58:02.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Repository\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "HW12\\Repository\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Repository\\TaskRepository.cs",
+              "RelativeToolTip": "HW12\\Repository\\TaskRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T19:29:16.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Interface\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "HW12\\Interface\\ITaskRepository.cs",
+              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Interface\\ITaskRepository.cs",
+              "RelativeToolTip": "HW12\\Interface\\ITaskRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T23:15:59.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "PriorityEnum.cs",
               "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Enum\\PriorityEnum.cs",
               "RelativeDocumentMoniker": "HW12\\Enum\\PriorityEnum.cs",
@@ -100,28 +240,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Tassk.cs",
-              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Entity\\Tassk.cs",
-              "RelativeDocumentMoniker": "HW12\\Entity\\Tassk.cs",
-              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Entity\\Tassk.cs",
-              "RelativeToolTip": "HW12\\Entity\\Tassk.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBUAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "StateEnum.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Enum\\StateEnum.cs",
+              "RelativeDocumentMoniker": "HW12\\Enum\\StateEnum.cs",
+              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Enum\\StateEnum.cs",
+              "RelativeToolTip": "HW12\\Enum\\StateEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T18:15:32.535Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Program.cs",
-              "RelativeDocumentMoniker": "HW12\\Program.cs",
-              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 12\\HW12\\HW12\\Program.cs",
-              "RelativeToolTip": "HW12\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T17:42:52.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T19:51:00.471Z"
             }
           ]
         },

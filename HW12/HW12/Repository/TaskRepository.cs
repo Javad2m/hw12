@@ -51,6 +51,7 @@ public class TaskRepository : ITaskRepository
         tassk.TimeToDone = task.TimeToDone;
         tassk.State = task.State;
         tassk.Priority = task.Priority;
+        tassk.UserID = task.UserID;
         _appContext.SaveChanges();
 
     }

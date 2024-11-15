@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HW12.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20241114043919_init")]
+    [Migration("20241115000000_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -46,9 +46,55 @@ namespace HW12.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("UserID")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
+                    b.HasIndex("UserID");
+
                     b.ToTable("tassks");
+                });
+
+            modelBuilder.Entity("HW12.Entity.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("users");
+                });
+
+            modelBuilder.Entity("HW12.Entity.Tassk", b =>
+                {
+                    b.HasOne("HW12.Entity.User", "User")
+                        .WithMany("Tassks")
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("HW12.Entity.User", b =>
+                {
+                    b.Navigation("Tassks");
                 });
 #pragma warning restore 612, 618
         }

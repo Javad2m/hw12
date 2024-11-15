@@ -18,6 +18,7 @@ public class Tassk
     public PriorityEnum Priority { get; set; }
 
     public StateEnum State { get; set; } = StateEnum.inPending;
+    public User User { get; set; }
+    public int UserID { get; set; }
 
-    
 }

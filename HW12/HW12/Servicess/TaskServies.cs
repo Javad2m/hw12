@@ -11,7 +11,7 @@ namespace HW12.Servicess;
 
 public class TaskServies : TaskRepository
 {
-    public void Creat(string title, DateTime dateTime, PriorityEnum priority)
+    public void Creat(string title, DateTime dateTime, PriorityEnum priority, int userid)
     {
         try
         {
@@ -32,6 +32,7 @@ public class TaskServies : TaskRepository
                 Titel = title,
                 TimeToDone = dateTime,
                 Priority = priority,
+                UserID = userid,
 
             };
             Add(newTassk);
@@ -44,9 +45,9 @@ public class TaskServies : TaskRepository
 
     }
 
-    public void TaskList()
+    public void TaskList(int userId)
     {
-        var tasks = GetAll();
+        var tasks = GetAll().Where(t => t.UserID == userId);
         foreach (var item in tasks)
         {
             Console.WriteLine($"{item.Id} - {item.Titel} - {item.TimeToDone} - {item.State} - {item.Priority}");
@@ -59,10 +60,14 @@ public class TaskServies : TaskRepository
 
     }
 
-    public void Remove(int id)
+    public void Remove(int id, int userId)
     {
         var task = Get(id);
-        if (task != null)
+        if (task.UserID != userId)
+        {
+            throw new Exception("You CanNot Delete TaskID");
+        }
+        else if (task != null)
         {
             Delete(id);
         }
@@ -76,7 +81,8 @@ public class TaskServies : TaskRepository
 
     public void ChangState(int id, int State)
     {
-        try {
+        try
+        {
             var task = Get(id);
             if (task == null)
             {

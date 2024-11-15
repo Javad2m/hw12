@@ -17,4 +17,5 @@ public class AppDBContext : DbContext
     }
 
     public DbSet<Tassk> tassks { get; set; }
+    public DbSet<User> users { get; set; }
 }
